@@ -9,5 +9,5 @@ public class PeerTubeMinerApplication {
     public static void main(String[] args) {
         SpringApplication.run(PeerTubeMinerApplication.class, args);
     }
-    return ;
+    return hola;
 }
