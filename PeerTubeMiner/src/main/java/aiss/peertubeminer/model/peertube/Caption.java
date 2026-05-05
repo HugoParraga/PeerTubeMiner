@@ -3,14 +3,10 @@ package aiss.peertubeminer.model.peertube;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
 
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Caption {
-
-    @GeneratedValue(strategy = GenerationType.UUID)
 
     @JsonProperty("language")
     private Language language;
